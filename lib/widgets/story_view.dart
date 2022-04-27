@@ -624,7 +624,7 @@ class StoryViewState extends State<StoryView> with TickerProviderStateMixin {
     return Container(
       decoration: BoxDecoration(
         color: Colors.transparent,
-        border: BorderRadius.circular(20)
+        borderRadius: BorderRadius.circular(20)
       ),
       child: Stack(
         children: <Widget>[
